@@ -1,6 +1,5 @@
 import time
 from sys import arg
-from mathfuncs.mathfuncs import MathFuncs
 
 fn do_fib(n: Int) -> Int:
     if n < 0:
@@ -31,5 +30,5 @@ fn main():
         let fib_num = do_fib(num)
         let end = time.time.now()
         let total = (end - start) / 1_000_000_000
-        print("Fibinacci: ", fib_num, total, "Secs")
+        print("Fibonacci: ", fib_num, total, "Secs")
     
