@@ -6,7 +6,7 @@ import time
 # which makes python the undisputed champion :P 
 
 ### For cheating uncomment the following line
-@lru_cache
+# @lru_cache
 def do_fib(n):
     if n < 0:
         print("Incorrect Input")
