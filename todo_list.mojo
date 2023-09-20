@@ -52,5 +52,7 @@ fn main():
     todo.addTask("Task 4")
     todo.displayTasks()
     for x in range(0, 19):
-        let num: StringRef = rebind[StringRef, Int](x)
-        todo.addTask("Task ")
+        let num: StringLiteral = rebind[StringLiteral, Int](x)
+        todo.addTask("Task "+ num)
+
+    todo.displayTasks()
